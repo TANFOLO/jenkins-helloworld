@@ -7,5 +7,6 @@ node {
     }
     stage('Run') {
     bat 'java Main'
+    bat 'echo "Bonjour je suis un script"'
     }
 }
